@@ -1,0 +1,188 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	background-color: white;
+	width: 100%;
+	height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.boxA{
+	background-color:black ;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	position: sticky;
+}
+img{
+	margin-left: 550px;
+	margin-top: 10px;
+	width: 200px;
+	height: 80px;
+}
+.box1{
+	margin-top: 45px;
+	margin-left: 100px;
+	height: 200px;
+
+}
+.boxA .box1 a{
+	color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+    border-right: 1px solid lightgrey;
+    padding-right: 20px;
+}
+.box1 a:hover{
+	color: gold;
+}
+.box2{
+	margin-top: 45px;
+	margin-left: 20px;
+	height: 200px;
+	width: 100px;
+
+}
+.box2 a{
+	color: white;
+	font-size: 18px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.box2 a:hover{
+	color: gold;
+}
+.btn1{
+	background: #f6bf00;
+	color: #000;
+	text-align: center;
+	margin-left: 33px;
+	height: 100px;
+	width: 250px;
+	border-color: transparent;
+}
+.btn1 a{
+	color: black;
+	text-decoration: none;
+}
+.btn1:hover{
+	background-color: darkgoldenrod;
+}
+.boxB{
+	background-color: #222;
+	width: 100%;
+	height: 100px;
+}
+.boxB ul{
+	display: flex;
+    margin-left: 300px;
+    list-style-type: none;
+
+}
+.boxB ul li{
+	margin-left: 55px;
+	margin-top: 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.boxB a{
+	color: white;
+	text-decoration: none;
+}
+.boxC {
+	margin-top: 20px;
+	display: block;
+	width: 100%;
+	height: 100vh;
+	 background-image: url(pu.jpeg);
+	 background-position: center;
+	 background-size: cover;
+}
+.boxC h1{
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+	font-size: 60px;
+	font-family: "Roboto Condensed";
+	letter-spacing: -2px;
+}
+.boxC h3{
+	color: white;
+	text-align: center;
+	font-family: "Roboto Condensed";
+}
+.boxD{
+	display: flex;
+	width: 100%;
+}
+.boxD h3{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.boxD a:hover{
+	color: black;
+}
+.boxD .box1{
+	border: 2px solid white;
+	width: 200px;
+	height: 50px;
+	margin-left: 250px;
+	text-align: center;
+	clip-path: polygon(100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 0);
+}
+.boxD .box1:hover{
+	background-color: gold;
+	border-color: transparent;
+}
+.boxD .box1 :hover a{
+	color: black;
+}
+.boxD .box2{
+	border: 2px solid white;
+	width: 200px;
+	height: 50px;
+	margin-left: 10px;
+	clip-path: polygon(100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 0);
+}
+.boxD .box2:hover{
+	background-color: gold;
+	border-color: transparent;
+}
+.boxD .box2:hover a{
+	color: black;
+}
+.boxD .box3{
+	border: 2px solid white;
+	width: 200px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 45px;
+	clip-path: polygon(100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 0);
+}
+.boxD .box3:hover{
+	background-color: gold;
+	border-color: transparent;
+}
+.boxD .box3 :hover a{
+	color: black;
+}
+.boxD .box4{
+	border: 2px solid white;
+	width: 200px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 45px;
+	clip-path: polygon(100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 0);
+}
+.boxD .box4:hover{
+	background-color: gold;
+	border-color: transparent;
+}
+.boxD .box4 :hover a{
+	color: black;
+}
